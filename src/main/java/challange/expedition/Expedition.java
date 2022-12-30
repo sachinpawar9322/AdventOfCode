@@ -29,7 +29,8 @@ public class Expedition {
 
         energies.sort(Comparator.comparing(Integer::intValue).reversed());
 
-        System.out.println(energies.getFirst()+energies.get(1)+energies.get(2));
+        System.out.println("highest: "+energies.getFirst());
+        System.out.println("top 3: "+(energies.getFirst()+energies.get(1)+energies.get(2)));
 
     }
 
